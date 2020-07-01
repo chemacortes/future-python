@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "future-python"
+version = "0.1.0"
+description = "The hypermodern Python project"
+authors = ["chemacortes <devxtrem@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/chemacortes/future-python"
+repository = "https://github.com/chemacortes/future-python"
+keywords = ["hypermodern", "future-python"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.0"
+
+[tool.poetry.dev-dependencies]
+
+
+[tool.poetry.scripts]
+future-python = "future_python.console:main"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+
+
+
+
